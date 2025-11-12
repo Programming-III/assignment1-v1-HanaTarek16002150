@@ -20,6 +20,7 @@ animal::animal(string name=" ",int age=0,bool isHungry=false){
     this->isHungry=isHungry; 
 }
 void animal::display(){
+    cout<<"Enclosure 1 Animals:"<<endl;
 cout<<"Name:"<<name<<endl;
 cout<<"Age:"<<age<<endl;
 cout<<"Is it hungry:"<<isHungry<<endl;
@@ -90,6 +91,7 @@ visitor::visitor(string vname=" ",int tickets=0){
     this->tickets=tickets;
 }
 void visitor::displayInfo(){
+    cout<<"Visitor Info"<<endl;
     cont<<"Name of visitor:"<<visitor<<endl;
     cout<<"Tickets:"<<tickets<<endl;
 };
@@ -99,6 +101,8 @@ int main()
   Mammal("lion",5,"Hungry");
   bird("parrort",2,"Not Hungry");
   reptile("snake",3,"venomous");
+  visitor v1("sarah ali",3);
+  
   
 
     return 0;
