@@ -1,11 +1,6 @@
 #ifndef VISITOR_H
 #define VISITOR_H
 
-#include <string>
-using namespace std;
-
-//define visitor class here
-
 #ifndef visitor_h_included
 #define visitor_h_included
 #include<iostream>
@@ -16,11 +11,13 @@ class visitor{
     public:
     void displayInfo();
     visitor(string vname,int tickets);
+    string getvname();
+    int gettickets();
+    void setname();
+    void setticket();
 };
 #endif
 
 
 
 
-
-#endif
