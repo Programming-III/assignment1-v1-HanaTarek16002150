@@ -92,7 +92,7 @@ visitor::visitor(string vname=" ",int tickets=0){
 void visitor::displayInfo(){
     cont<<"Name of visitor:"<<visitor<<endl;
     cout<<"Tickets:"<<tickets<<endl;
-}
+};
 
 int main()
 {
